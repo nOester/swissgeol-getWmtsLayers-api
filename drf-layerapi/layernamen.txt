@@ -1,6 +1,0 @@
-Schweregrundnetz
-Isostatische Anomalien 500
-Bouguer-Anomalien 500
-Gravimetrischer Atlas 100
-Gravimetrische Messpunkte 100
-Geoidmodell in CH1903
