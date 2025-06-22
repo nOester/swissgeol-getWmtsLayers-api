@@ -63,7 +63,7 @@ def parse_layer_file(input_path: str, output_path: str):
                 outfile.write(f"""        {{
           // Layer "{title}" (aus {quelle})
           type: LayerType.swisstopoWMTS,
-          label: t('lyr_{identifier}_label'),
+          label: t('lyr_{title}_label'),
           layer: '{identifier}',
           maximumLevel: 18,
           visible: false,
