@@ -89,3 +89,6 @@ def parse_layer_file(input_path: str, output_path: str):
           legend: 'NOT_FOUND',
         }},
 """)
+    
+"""     with open(output_path, 'w') as f:
+        f.write("// Test-JS-Datei\nconst test = true;\n") """

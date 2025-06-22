@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.parsers import MultiPartParser
 from rest_framework.response import Response
 from rest_framework import status
-from django.http import FileResponse
+from django.http import FileResponse, HttpResponseBadRequest
 import os
 import tempfile
 
@@ -29,7 +29,12 @@ class LayerUploadView(APIView):
 
         with tempfile.TemporaryDirectory() as tmpdir:
             input_path = os.path.join(tmpdir, "layernamen.txt")
-            output_path = os.path.join(tmpdir, "layer_blocks.js")
+            # output_path = os.path.join(tmpdir, "layer_blocks.js")
+            # Speichern im Projektverzeichnis oder einem temp-Ordner außerhalb
+            output_path = os.path.join("/tmp", "layer_blocks.js")  # Linux/Mac
+            
+        
+        
 
             # Datei speichern
             with open(input_path, 'wb') as f:
@@ -40,10 +45,27 @@ class LayerUploadView(APIView):
             try:
                 parse_layer_file(input_path, output_path)
             except Exception as e:
-                return Response({"detail": f"Fehler beim Verarbeiten: {e}"}, status=status.HTTP_400_BAD_REQUEST)
+                # return Response({"detail": f"Fehler beim Verarbeiten: {e}"}, status=status.HTTP_400_BAD_REQUEST)
+                return HttpResponseBadRequest(f"Fehler beim Verarbeiten: {e}")
 
             # Rückgabe als Download
-            return FileResponse(open(output_path, 'rb'), as_attachment=True, filename="layer_blocks.js")
+            #return FileResponse(open(output_path, 'rb'), as_attachment=True, filename="layer_blocks.js")
+                        
+            return FileResponse(
+                open(output_path, 'rb'),
+                as_attachment=True,
+                filename="layer_blocks.js"
+            ) 
+            
+"""         
+            with open(output_path, 'rb') as out_file:
+                return FileResponse(
+                    out_file,
+                    as_attachment=True,
+                    filename="layer_blocks.js"
+                ) 
+  """
+
 
 
 
