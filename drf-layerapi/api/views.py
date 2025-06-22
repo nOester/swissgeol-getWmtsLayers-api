@@ -6,6 +6,8 @@ from django.http import FileResponse, HttpResponseBadRequest
 import os
 import tempfile
 
+from django.conf import settings
+
 from .utils import parse_layer_file
 
 # Health check
@@ -24,8 +26,8 @@ class LayerUploadView(APIView):
         
 
         # Fester Ordner
-        input_dir = "./input"
-        output_dir = "./output"
+        input_dir = settings.INPUT_DIR # "./input"
+        output_dir = settings.OUTPUT_DIR # "./output"
 
         input_path = os.path.join(input_dir, "layernamen.txt")
         output_path = os.path.join(output_dir, "layer_blocks.js")

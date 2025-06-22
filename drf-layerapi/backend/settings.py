@@ -12,6 +12,15 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 
+from decouple import config
+
+# Beispiel: Variablen aus .env lesen
+DEBUG = config('DEBUG', default=False, cast=bool)
+SECRET_KEY = config('SECRET_KEY', default='unsicherer-fallback')
+INPUT_DIR = config('INPUT_DIR', default='./input')
+OUTPUT_DIR = config('OUTPUT_DIR', default='./output')
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
