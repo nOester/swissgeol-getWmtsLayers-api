@@ -1,0 +1,1146 @@
+{
+    "results": {
+        "root": {
+            "id": 15010,
+            "children": [
+                {
+                    "id": 1786,
+                    "category": "topic",
+                    "staging": "prod",
+                    "label": "Karten, Profile & Modelle",
+                    "selectedOpen": false,
+                    "children": [
+                        {
+                            "id": 1787,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Geologische Karten",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 62917,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "GeoCover - Vektordaten",
+                                    "layerBodId": "ch.swisstopo.geologie-geocover"
+                                },
+                                {
+                                    "id": 62918,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Geologischer Atlas GA25",
+                                    "layerBodId": "ch.swisstopo.geologie-geologischer_atlas"
+                                },
+                                {
+                                    "id": 830964082,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Lithologie 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen"
+                                },
+                                {
+                                    "id": 62916,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Geologie 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geologische_karte"
+                                },
+                                {
+                                    "id": 62915,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Tektonik 500",
+                                    "layerBodId": "ch.swisstopo.geologie-tektonische_karte"
+                                },
+                                {
+                                    "id": 830964083,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Gesteinsgruppen 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung"
+                                },
+                                {
+                                    "id": 830964084,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Entstehung der Gesteine 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geotechnik-gk500-genese"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1793,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Thematische Karten",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 62914,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Letzteiszeitl. Max. (Karte) 500",
+                                    "layerBodId": "ch.swisstopo.geologie-eiszeit-lgm-raster"
+                                },
+                                {
+                                    "id": 62913,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Letzteiszeitl. Max. (Vektor) 500",
+                                    "layerBodId": "ch.swisstopo.geologie-eiszeit-lgm"
+                                },
+                                {
+                                    "id": 830964085,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Gletschermächtigkeit",
+                                    "layerBodId": "ch.swisstopo.geologie-gletschermaechtigkeit"
+                                },
+                                {
+                                    "id": 830964086,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Gletscherausdehnung",
+                                    "layerBodId": "ch.swisstopo.geologie-gletscherausdehnung"
+                                },
+                                {
+                                    "id": 62910,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Übersicht Geomorphologie",
+                                    "layerBodId": "ch.swisstopo.geologie-geomorphologie"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 15174,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Historische Karten",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 830964087,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Geol. Generalkarte 200",
+                                    "layerBodId": "ch.swisstopo.geologie-generalkarte-ggk200"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1799,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Blatteinteilungen",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 62908,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Einteilung GGK 200 Raster",
+                                    "layerBodId": "ch.swisstopo.geologie-generalkarte-ggk200.metadata"
+                                },
+                                {
+                                    "id": 62907,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Einteilung GSK Raster",
+                                    "layerBodId": "ch.swisstopo.geologie-spezialkarten_schweiz.metadata"
+                                },
+                                {
+                                    "id": 81140584,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Einteilung GSK Vektor",
+                                    "layerBodId": "ch.swisstopo.geologie-spezialkarten_schweiz_vector.metadata"
+                                },
+                                {
+                                    "id": 81140588,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Einteilung GA25 Raster",
+                                    "layerBodId": "ch.swisstopo.geologie-geologischer_atlas.metadata"
+                                },
+                                {
+                                    "id": 62906,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Einteilung GeoCover",
+                                    "layerBodId": "ch.swisstopo.geologie-geocover.metadata"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 15143,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Profile",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 618746205,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Geologische Profile GA25",
+                                    "layerBodId": "ch.swisstopo.geologie-geologischer_atlas_profile"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1855,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "3D-Modelle",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 338088335,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Geologische 3D-Modelle",
+                                    "layerBodId": "ch.swisstopo.geologie-geologische_3dmodelle"
+                                },
+                                {
+                                    "id": 830964088,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Mächtigkeit des Lockergesteins",
+                                    "layerBodId": "ch.swisstopo.geologie-lockergestein_maechtigkeitsmodell"
+                                },
+                                {
+                                    "id": 830964089,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Höhenmodell der Felsoberfläche",
+                                    "layerBodId": "ch.swisstopo.geologie-felsoberflaeche_hoehenmodell"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 1802,
+                    "category": "topic",
+                    "staging": "prod",
+                    "label": "Bohrdaten",
+                    "selectedOpen": false,
+                    "children": [
+                        {
+                            "id": 830989461,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Tiefe Bohrungen",
+                            "layerBodId": "ch.swisstopo.geologie-bohrungen_tiefer_500"
+                        }
+                    ]
+                },
+                {
+                    "id": 1811,
+                    "category": "topic",
+                    "staging": "prod",
+                    "label": "Geophysik",
+                    "selectedOpen": false,
+                    "children": [
+                        {
+                            "id": 859204839,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Reflexionsseismik",
+                            "layerBodId": "ch.swisstopo.geologie-reflexionsseismik"
+                        },
+                        {
+                            "id": 437927678,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Dichte von Gesteinen",
+                            "layerBodId": "ch.swisstopo.geologie-gesteinsdichte"
+                        },
+                        {
+                            "id": 34165544,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Anthrop. Bodenunruhe CH",
+                            "layerBodId": "ch.swisstopo.geologie-bodenunruhe"
+                        },
+                        {
+                            "id": 62896,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Terrestrische Strahlung",
+                            "layerBodId": "ch.swisstopo.geologie-dosisleistung-terrestrisch"
+                        },
+                        {
+                            "id": 1812,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Erdschwerefeld",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 62890,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Schweregrundnetz",
+                                    "layerBodId": "ch.swisstopo.landesschwerenetz"
+                                },
+                                {
+                                    "id": 62891,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Isostatische Anomalien 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geodaesie-isostatische_anomalien"
+                                },
+                                {
+                                    "id": 62889,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Bouguer-Anomalien 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geodaesie-bouguer_anomalien"
+                                },
+                                {
+                                    "id": 62895,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Gravimetrischer Atlas 100",
+                                    "layerBodId": "ch.swisstopo.geologie-gravimetrischer_atlas"
+                                },
+                                {
+                                    "id": 62894,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Gravimetrische Messpunkte 100",
+                                    "layerBodId": "ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte"
+                                },
+                                {
+                                    "id": 62892,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Geoidmodell in CH1903",
+                                    "layerBodId": "ch.swisstopo.geoidmodell-ch1903"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1818,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Erdmagnetfeld",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 62884,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Aeromagnetik 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz"
+                                },
+                                {
+                                    "id": 62883,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Aeromagnetik Mittelland/Jura 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_jura"
+                                },
+                                {
+                                    "id": 62882,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Aeromagnetik Aargau 1100 m 100",
+                                    "layerBodId": "ch.nagra.aeromagnetische-karte_1100"
+                                },
+                                {
+                                    "id": 62888,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Aeromagnetik Aargau 1500 m 100",
+                                    "layerBodId": "ch.nagra.aeromagnetische-karte_1500"
+                                },
+                                {
+                                    "id": 62887,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Deklination 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geophysik-deklination"
+                                },
+                                {
+                                    "id": 62886,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Inklination 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geophysik-inklination"
+                                },
+                                {
+                                    "id": 62885,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Magnetfeldstärke 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geophysik-totalintensitaet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 15070,
+                    "category": "topic",
+                    "staging": "prod",
+                    "label": "Geoenergie",
+                    "selectedOpen": false,
+                    "children": [
+                        {
+                            "id": 830972541,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Tiefengeothermie-Projekte",
+                            "layerBodId": "ch.swisstopo.geologie-tiefengeothermie_projekte"
+                        },
+                        {
+                            "id": 1054414480,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Tiefe Bohrungen",
+                            "layerBodId": "ch.swisstopo.geologie-bohrungen_tiefer_500"
+                        },
+                        {
+                            "id": 1054414479,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Reflexionsseismik",
+                            "layerBodId": "ch.swisstopo.geologie-reflexionsseismik"
+                        },
+                        {
+                            "id": 981298513,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Thermale Wässer",
+                            "layerBodId": "ch.swisstopo.geologie-thermale_waesser"
+                        },
+                        {
+                            "id": 967569086,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Grundwasserwärmenutzungspotenzial",
+                            "layerBodId": "ch.bfe.grundwasserwaermenutzungspotential"
+                        },
+                        {
+                            "id": 830972542,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Geothermische Potenzialstudien",
+                            "layerBodId": "ch.swisstopo.geologie-geothermische_potenzialstudien_regional"
+                        },
+                        {
+                            "id": 15180,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Temperaturmodelle",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 830972543,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Wärmestromdichte 500",
+                                    "layerBodId": "ch.swisstopo.geologie-geophysik-geothermie"
+                                },
+                                {
+                                    "id": 830972544,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Temperaturmodell - Daten",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-temperaturmodell_eingangsdaten"
+                                },
+                                {
+                                    "id": 830972545,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Höhe 60 °C-Isotherme",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-isotherme_60"
+                                },
+                                {
+                                    "id": 830972546,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Höhe 100 °C-Isotherme",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-isotherme_100"
+                                },
+                                {
+                                    "id": 830976765,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Höhe 150 °C-Isotherme",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-isotherme_150"
+                                },
+                                {
+                                    "id": 830976766,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Temperaturen Top OMM",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-temperatur_top_omm"
+                                },
+                                {
+                                    "id": 830976767,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Temperaturen Top Oberer Malm",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-temperatur_top_omalm"
+                                },
+                                {
+                                    "id": 830976768,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Temperaturen Top Muschelkalk",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-temperatur_top_muschelkalk"
+                                },
+                                {
+                                    "id": 830976769,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Temperaturen 500 m Tiefe",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-temperaturverteilung_500"
+                                },
+                                {
+                                    "id": 830976770,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Temperaturen 1000 m Tiefe",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-temperaturverteilung_1000"
+                                },
+                                {
+                                    "id": 830976771,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Temperaturen 1500 m Tiefe",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-temperaturverteilung_1500"
+                                },
+                                {
+                                    "id": 830976772,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Temperaturen 2000 m Tiefe",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-temperaturverteilung_2000"
+                                },
+                                {
+                                    "id": 830976773,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Temperaturen 3000 m Tiefe",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-temperaturverteilung_3000"
+                                },
+                                {
+                                    "id": 830976774,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Temperaturen 4000 m Tiefe",
+                                    "layerBodId": "ch.swisstopo.geologie-geomol-temperaturverteilung_4000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 15034,
+                    "category": "topic",
+                    "staging": "prod",
+                    "label": "Mineralische Rohstoffe",
+                    "selectedOpen": false,
+                    "children": [
+                        {
+                            "id": 15181,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Baurohstoffe",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 830976776,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Zementrohstoffe",
+                                    "layerBodId": "ch.swisstopo.geologie-rohstoffe-zement_abbau_verarbeitung"
+                                },
+                                {
+                                    "id": 955887478,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Hartstein: Produktionsstandorte",
+                                    "layerBodId": "ch.swisstopo.geologie-hartsteinabbau"
+                                },
+                                {
+                                    "id": 955887487,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Hartstein: Vorkommen",
+                                    "layerBodId": "ch.swisstopo.geologie-hartsteinvorkommen"
+                                },
+                                {
+                                    "id": 830976775,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Felsgebrochene Gesteinskörnungen",
+                                    "layerBodId": "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau"
+                                },
+                                {
+                                    "id": 830976777,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Ziegeleirohstoffe",
+                                    "layerBodId": "ch.swisstopo.geologie-rohstoffe-ziegel_abbau"
+                                },
+                                {
+                                    "id": 830976778,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Naturwerksteine",
+                                    "layerBodId": "ch.swisstopo.geologie-rohstoffe-naturwerksteine_abbau"
+                                },
+                                {
+                                    "id": 830976779,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Naturwerksteine an Bauwerken",
+                                    "layerBodId": "ch.swisstopo.geologie-geotechnik-steine_historische_bauwerke"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 15038,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Metallrohstoffe",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 112696186,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Metallrohstoffe",
+                                    "layerBodId": "ch.swisstopo.geologie-rohstoffe-vererzungen"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 15182,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Industrieminerale",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 830985216,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Gips",
+                                    "layerBodId": "ch.swisstopo.geologie-rohstoffe-gips_abbau_verarbeitung"
+                                },
+                                {
+                                    "id": 830985217,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Salz",
+                                    "layerBodId": "ch.swisstopo.geologie-rohstoffe-salz_abbau_verarbeitung"
+                                },
+                                {
+                                    "id": 830985218,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Weitere Industrieminerale",
+                                    "layerBodId": "ch.swisstopo.geologie-rohstoffe-industrieminerale"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 15183,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Energierohstoffe",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 830985219,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Energierohstoffe",
+                                    "layerBodId": "ch.swisstopo.geologie-rohstoffe-kohlen_bitumen_erdgas"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 15179,
+                    "category": "topic",
+                    "staging": "prod",
+                    "label": "Grundwasser",
+                    "selectedOpen": false,
+                    "children": [
+                        {
+                            "id": 981294151,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Thermale Wässer",
+                            "layerBodId": "ch.swisstopo.geologie-thermale_waesser"
+                        },
+                        {
+                            "id": 830985220,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Übersichtskarte Hydrogeologie",
+                            "layerBodId": "ch.bafu.hydrogeologie-uebersichtskarte"
+                        },
+                        {
+                            "id": 830985221,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Grundwasservorkommen 500",
+                            "layerBodId": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen"
+                        },
+                        {
+                            "id": 830985222,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Grundwasservulnerabilität 500",
+                            "layerBodId": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservulnerabilitaet"
+                        },
+                        {
+                            "id": 830985223,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Hydrogeologische Karte 100",
+                            "layerBodId": "ch.bafu.hydrogeologische-karte_100"
+                        },
+                        {
+                            "id": 15184,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Karstgrundwasser",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 830985226,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Karstwasservorkommen",
+                                    "layerBodId": "ch.bafu.karst-ausdehnung_grundwasservorkommen"
+                                },
+                                {
+                                    "id": 830985227,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Karstquellen und Schwinden",
+                                    "layerBodId": "ch.bafu.karst-quellen_schwinden"
+                                },
+                                {
+                                    "id": 830985228,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Unterirdische Fliesswege",
+                                    "layerBodId": "ch.bafu.karst-unterirdische_fliesswege"
+                                },
+                                {
+                                    "id": 830985229,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Karst-Einzugsgebiete",
+                                    "layerBodId": "ch.bafu.karst-einzugsgebiete"
+                                },
+                                {
+                                    "id": 830985230,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Karst-Einzugsgebietseinheiten",
+                                    "layerBodId": "ch.bafu.karst-einzugsgebietseinheiten"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 830985225,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Grundwasserkörper",
+                            "layerBodId": "ch.bafu.grundwasserkoerper"
+                        },
+                        {
+                            "id": 15185,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Grundwasserquantität",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 830985231,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "NAQUA-QUANT Messstellen",
+                                    "layerBodId": "ch.bafu.hydroweb-messstationen_grundwasser"
+                                },
+                                {
+                                    "id": 830985233,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Grundwasserstände/Quellschüttungen",
+                                    "layerBodId": "ch.bafu.hydroweb-messstationen_grundwasserzustand"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 830989457,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Markierversuche",
+                            "layerBodId": "ch.bafu.hydrogeologie-markierversuche"
+                        },
+                        {
+                            "id": 15186,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Grundwasserqualität",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 830985234,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Grundwasser: Nitrat",
+                                    "layerBodId": "ch.bafu.naqua-grundwasser_nitrat"
+                                },
+                                {
+                                    "id": 830985235,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Grundwasser: VOC",
+                                    "layerBodId": "ch.bafu.naqua-grundwasser_voc"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 1858,
+                    "category": "topic",
+                    "staging": "prod",
+                    "label": "Naturgefahren",
+                    "selectedOpen": false,
+                    "children": [
+                        {
+                            "id": 1859,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Massenbewegungen",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 62862,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Lawinen (SilvaProtect-CH)",
+                                    "layerBodId": "ch.bafu.silvaprotect-lawinen"
+                                },
+                                {
+                                    "id": 62861,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Hangmuren (SilvaProtect-CH)",
+                                    "layerBodId": "ch.bafu.silvaprotect-hangmuren"
+                                },
+                                {
+                                    "id": 62864,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Murgang (SilvaProtect-CH)",
+                                    "layerBodId": "ch.bafu.silvaprotect-murgang"
+                                },
+                                {
+                                    "id": 62860,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Sturz (SilvaProtect-CH)",
+                                    "layerBodId": "ch.bafu.silvaprotect-sturz"
+                                },
+                                {
+                                    "id": 62863,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Übersarung (SilvaProtect-CH)",
+                                    "layerBodId": "ch.bafu.silvaprotect-uebersarung"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1865,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Erdbeben",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 236710259,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Aktuelle Erdbeben",
+                                    "layerBodId": "ch.bafu.gefahren-aktuelle_erdbeben"
+                                },
+                                {
+                                    "id": 62856,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Historische Erdbeben",
+                                    "layerBodId": "ch.bafu.gefahren-historische_erdbeben"
+                                },
+                                {
+                                    "id": 62859,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Erdbebenzonen SIA 261",
+                                    "layerBodId": "ch.bafu.gefahren-gefaehrdungszonen"
+                                },
+                                {
+                                    "id": 62857,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Seismische Baugrundklassen",
+                                    "layerBodId": "ch.bafu.gefahren-baugrundklassen"
+                                },
+                                {
+                                    "id": 62858,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Spektrale Mikrozonierung",
+                                    "layerBodId": "ch.bafu.gefahren-spektral"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 15176,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Permafrost",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 830968299,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Permafrosthinweiskarte",
+                                    "layerBodId": "ch.bafu.permafrost"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1870,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Hochwasser",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 830968301,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Gefährdungskarte Oberflächenabfluss",
+                                    "layerBodId": "ch.bafu.gefaehrdungskarte-oberflaechenabfluss"
+                                },
+                                {
+                                    "id": 62853,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Überschwemmung Aquaprotect 50",
+                                    "layerBodId": "ch.bafu.aquaprotect_050"
+                                },
+                                {
+                                    "id": 62852,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Überschwemmung Aquaprotect 100",
+                                    "layerBodId": "ch.bafu.aquaprotect_100"
+                                },
+                                {
+                                    "id": 62855,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Überschwemmung Aquaprotect 250",
+                                    "layerBodId": "ch.bafu.aquaprotect_250"
+                                },
+                                {
+                                    "id": 62854,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Überschwemmung Aquaprotect 500",
+                                    "layerBodId": "ch.bafu.aquaprotect_500"
+                                },
+                                {
+                                    "id": 830968303,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Hochwasser Gefahrenstufen",
+                                    "layerBodId": "ch.bafu.hydroweb-messstationen_gefahren"
+                                },
+                                {
+                                    "id": 830968307,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Hydrol. Stationen Vorhersagen",
+                                    "layerBodId": "ch.bafu.hydroweb-messstationen_vorhersage"
+                                },
+                                {
+                                    "id": 830968309,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Hochwasserwarnkarte",
+                                    "layerBodId": "ch.bafu.hydroweb-warnkarte_national"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 1884,
+                    "category": "topic",
+                    "staging": "prod",
+                    "label": "Geotourismus, Geologie für alle",
+                    "selectedOpen": false,
+                    "children": [
+                        {
+                            "id": 1885,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Erlebnis Geologie",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 357519557,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "GeoEvents demnächst",
+                                    "layerBodId": "ch.swisstopo.geologie-geoevents_demnaechst"
+                                },
+                                {
+                                    "id": 357519555,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "GeoEvents auf Anfrage",
+                                    "layerBodId": "ch.swisstopo.geologie-geoevents_anfrage"
+                                },
+                                {
+                                    "id": 357519553,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Geosites",
+                                    "layerBodId": "ch.swisstopo.geologie-geosites"
+                                },
+                                {
+                                    "id": 62837,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Geowege",
+                                    "layerBodId": "ch.swisstopo.geologie-geowege"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 15079,
+                            "category": "topic",
+                            "staging": "prod",
+                            "label": "Geotope",
+                            "selectedOpen": false,
+                            "children": [
+                                {
+                                    "id": 357523330,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Geotope der Schweiz",
+                                    "layerBodId": "ch.swisstopo.geologie-geotope"
+                                },
+                                {
+                                    "id": 418815842,
+                                    "category": "layer",
+                                    "staging": "prod",
+                                    "label": "Stand kantonale Geotope",
+                                    "layerBodId": "ch.swisstopo.geologie-geotope_kantone_stand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 15187,
+                    "category": "topic",
+                    "staging": "prod",
+                    "label": "Unterirdischer Raum",
+                    "selectedOpen": false,
+                    "children": [
+                        {
+                            "id": 830989458,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Felslabore",
+                            "layerBodId": "ch.swisstopo.geologie-felslabore"
+                        },
+                        {
+                            "id": 830989459,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "SP Geologische Tiefenlager",
+                            "layerBodId": "ch.bfe.sachplan-geologie-tiefenlager"
+                        }
+                    ]
+                },
+                {
+                    "id": 1890,
+                    "category": "topic",
+                    "staging": "prod",
+                    "label": "Hintergrunddaten",
+                    "selectedOpen": false,
+                    "children": [
+                        {
+                            "id": 830968312,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "Zeitreise - Kartenwerke",
+                            "layerBodId": "ch.swisstopo.zeitreihen"
+                        },
+                        {
+                            "id": 830968313,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "CadastralWebMap",
+                            "layerBodId": "ch.kantone.cadastralwebmap-farbe"
+                        },
+                        {
+                            "id": 830968315,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "SWISSIMAGE Zeitreise",
+                            "layerBodId": "ch.swisstopo.swissimage-product"
+                        },
+                        {
+                            "id": 830968317,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "swissALTI3D monodirektionales Relief",
+                            "layerBodId": "ch.swisstopo.swissalti3d-reliefschattierung_monodirektional"
+                        },
+                        {
+                            "id": 830968318,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "swissALTI3D multidirektionales Relief",
+                            "layerBodId": "ch.swisstopo.swissalti3d-reliefschattierung"
+                        },
+                        {
+                            "id": 830968320,
+                            "category": "layer",
+                            "staging": "prod",
+                            "label": "swissBATHY3D Reliefschattierung",
+                            "layerBodId": "ch.swisstopo.swissbathy3d-reliefschattierung"
+                        }
+                    ]
+                }
+            ],
+            "category": "root",
+            "staging": "prod"
+        }
+    }
+}
